@@ -1,0 +1,53 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+   @include button
+
+}
+
+.default {
+    background-color: $color-tertiary;
+
+    &:hover {
+
+        background-color: lighten($color-tertiary, 10%);
+    }
+}
+
+.error {
+    background-color: $color-error;
+
+    &:hover {
+
+            background-color: lighten($color-error, 10%);
+        }
+}
+
+.info {
+    background-color: $color-info;
+
+    &:hover {
+
+            background-color: lighten($color-info, 10%);
+        }
+}
+
+.success {
+    background-color: $color-success;
+
+    &:hover {
+
+            background-color: lighten($color-success, 10%);
+        }
+}
+
+.warning {
+    background-color: $color-warning;
+
+    &:hover {
+
+            background-color: lighten($color-warning, 10%);
+        }
+}
